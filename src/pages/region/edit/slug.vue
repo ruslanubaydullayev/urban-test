@@ -1,5 +1,4 @@
 <template>
-  <div>{{region}}</div>
   <div class="container mx-auto">
       <div class="grid grid-cols-4 gap-2">
         <input class="rounded border border-blue p-2" type="text" v-model="form.nameUz">
@@ -10,7 +9,6 @@
           <input class="rounded border border-blue p-2" id="active" type="checkbox" v-model="form.isActive">
         </div>
       </div>
-
       <button class="bg-blue-500 text-white p-2 rounded mt-2" @click="updateRegion">Update</button>
   </div>
 </template>

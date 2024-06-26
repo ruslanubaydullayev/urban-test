@@ -15,5 +15,10 @@ export default [
     path: '/region/edit/:id',
     name: 'RegionEdit',
     component: () => import('@/pages/region/edit/slug.vue'),
+  },
+  {
+    path: '/region/create',
+    name: 'RegionCreate',
+    component: () => import('@/pages/region/create/index.vue'),
   }
 ] as RouteRecordRaw[]
